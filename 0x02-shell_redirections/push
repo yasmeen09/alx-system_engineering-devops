@@ -2,5 +2,5 @@
 echo "input commit"
 read commit
 git add .
-fit commit -m "${commit}"
+git commit -m "${commit}"
 git push
